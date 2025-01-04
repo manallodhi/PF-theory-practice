@@ -1,0 +1,36 @@
+>> Syantax of ostream :
+  (use for creating a file and adding data through the program)
+
+     //first write keyword 'ofstream' then use a variable for text file
+     //for calling the file later in program 
+      ofstream write("test.txt"); 
+
+     //calling the file and adding text in the file 
+      write<<"I'm studying file handling";
+
+ -- For creating file in some specific folder we copy the folder path from folder and
+    and write :
+
+     ofstream create("\Desktop\PF ASS#2/test.txt)
+     //paste the path name in inverted commas and add '/' this sign and write the file name 
+     you want to create. 
+
+>> Syantax of ifstream :
+   (use for reading text stored in the file and to display and use/manipulate data in program)
+
+    //creating variable to store text from file
+     string text;
+
+    //first write keyword of ifstream then use a variable for text file
+    //for calling the file later in program 
+     ifstream read("test.txt");
+
+    //copying file text into the variable 'text'
+     getline(read,text);
+    
+    //Displays the text from file
+     cout<<text;
+
+End .
+he file
+ending
